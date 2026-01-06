@@ -1,0 +1,19 @@
+# Python 依賴套件
+# 安裝方式: pip install -r requirements.txt
+
+# 串口通訊（串口版本需要）
+pyserial>=3.5
+
+# 統計計算（數據平滑）
+# 注意：statistics 是 Python 3.4+ 內建模組，無需安裝
+
+# Web 伺服器（所有 viewer 版本都需要）
+# http.server 是 Python 3 內建模組，無需安裝
+
+# 可選：vpython（僅 mpu6050_viewer_simple.py 需要）
+# vpython>=7.6.0
+
+# 注意：本專案主要使用 Python 標準庫
+# 串口版本需要 pyserial
+# TCP 版本僅使用標準庫（socket, http.server, threading 等）
+
